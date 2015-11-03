@@ -1,1 +1,95 @@
 /* PHASE 9: Forms */
+.thumb img{
+  width: 58px;
+  height: auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+form .thumb {
+  float: left;
+  position: relative;
+  display: block;
+}
+
+form .form-set {
+  float: right;
+  position: relative;
+  display: block;
+  width: 518px;
+  background-color: #eee;
+  font-weight: 700;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px
+}
+
+form .input {
+  position: relative;
+  display: block;
+  padding: 10px;
+}
+
+.form-set > input:focus {
+  border-color: #0c0;
+}
+
+.form-set >textarea:focus {
+  border-color: #0c0;
+}
+
+label .input{
+  padding: 10px;
+}
+
+input{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: 400;
+  display:block;
+  margin: auto;
+  width: 480px
+}
+
+textarea{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: 400;
+  display:block;
+  margin: auto;
+  width: 480px;
+  height: 142px;
+}
+
+
+form .submit{
+  padding: 10px 20px;
+  margin: 15px 0 15px 10px;
+  background-color: #0c0;
+  box-shadow: 0 2px 0 0 #070;
+  border-radius: 5px;
+  color: #fff;
+}
+
+
+form .submit:hover{
+  background-color: #0a0;
+
+}
+
+.button-alternative{
+  font-weight: 400;
+}
+
+.button-alternative strong{
+  font-weight: 700;
+  padding: 5px
+}
+
+.button-alternative strong:hover{
+  cursor: pointer;
+  color: #f00;
+}

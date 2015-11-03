@@ -35,7 +35,8 @@ input[type="submit"],
 textarea,
 button {
   appearance: none;
-
+  outline: none;
+  border-color: none;
 }
 
 button,
