@@ -4,7 +4,8 @@
   height: 200px;
   background: url("../../shared/img/cats.jpg");
   background-size: cover;
-  border-bottom: 1px solid #ccc
+  border-bottom: 1px solid #ccc;
+  line-height: 1;
 }
 
 .content-header h1 {
@@ -20,7 +21,7 @@
 .content-header button {
   position: absolute;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: bold;
   right: 20px;
   bottom: 20px;
   background-color: #fff;
