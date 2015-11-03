@@ -5,12 +5,15 @@ body{
   font-family: "Roboto";
   font-size: 12px;
   background-color: #eee;
+  position: relative
 }
 
 .header {
   background-color: #f00;
   display: block;
   border-bottom: 1px solid #ccc;
+  z-index: 1;
+  position: relative;
 }
 
 .header a {
