@@ -6,9 +6,10 @@
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   background-color: #fff;
+  position: relative;
 }
 
-.content-sidebar:before{
+.content:before{
   content: "";
   display: block;
   position: absolute;
